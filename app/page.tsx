@@ -106,7 +106,7 @@ export default function Home() {
               text-4xl md:text-5xl lg:text-6xl"
           >
             <DecryptedText
-              text="Briding healthcare and"
+              text="Bridging healthcare and"
               animateOn="view"
               speed={90}
               sequential
