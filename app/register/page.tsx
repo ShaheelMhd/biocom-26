@@ -1,8 +1,16 @@
-import React from "react";
-import { Background } from "../page";
+"use client";
+
 import NavBar from "@/components/NavBar";
+import { useRouter } from "next/navigation";
+import { Background } from "../page";
 
 const RegisterPage = () => {
+  const router = useRouter();
+
+  setTimeout(() => {
+    router.push("https://forms.gle/afcDbYxWkpdh6p299");
+  }, 3000);
+
   return (
     <>
       <Background />
