@@ -1,6 +1,6 @@
 "use client";
 
-import DarkVeil from "@/components/DarkVeil";
+import { Background } from "@/components/Background";
 import DecryptedText from "@/components/DecryptedText";
 import LogoLoop from "@/components/LogoLoop";
 import NavBar from "@/components/NavBar";
@@ -10,13 +10,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-export const Background = () => {
-  return (
-    <div className="h-[120vh] max-md:w-[101vw] md:h-screen fixed inset-0 -z-10">
-      <DarkVeil speed={1.7} hueShift={28} />
-    </div>
-  );
-};
+// export const Background = () => {
+//   return (
+//     <div className="h-[120vh] max-md:w-[101vw] md:h-screen fixed inset-0 -z-10">
+//       <DarkVeil speed={1.7} hueShift={28} />
+//     </div>
+//   );
+// };
 
 const imageLogos = [
   {

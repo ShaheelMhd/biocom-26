@@ -2,7 +2,7 @@
 
 import NavBar from "@/components/NavBar";
 import { useRouter } from "next/navigation";
-import { Background } from "../page";
+import { Background } from "@/components/Background";
 
 const RegisterPage = () => {
   const router = useRouter();
