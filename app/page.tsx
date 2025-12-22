@@ -234,6 +234,172 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
+            <div
+              className="grid max-md:grid-rows-[auto_auto] md:grid-cols-2
+                md:gap-7 md:text-right"
+            >
+              <div>
+                <h3
+                  className="text-4xl lg:text-5xl max-md:text-center
+                    font-medium mb-5"
+                >
+                  Interdisciplinary <br /> Biomedical <br /> Innovations
+                </h3>
+                <p className="max-md:hidden lg:text-lg">
+                  Highlighting the convergence of engineering, computing, life
+                  sciences, and medicine to drive next-generation healthcare
+                  solutions. It showcases collaborative approaches that
+                  translate cross-disciplinary research into impactful
+                  biomedical technologies, fostering innovation at the
+                  intersection of multiple scientific domains.
+                </p>
+              </div>
+              <Image
+                src="/interdisciplinary-bm-innovations.png"
+                alt="Internet of medical things poster"
+                width={500}
+                height={500}
+                className="rounded-2xl max-md:row-start-1 max-md:scale-85"
+              />
+            </div>
+
+            <div className="grid max-md:grid-rows-[auto_auto] md:grid-cols-2 md:gap-7">
+              <Image
+                src="/ai-ml-in-healthcare.png"
+                alt="AI in healthcare poster"
+                width={500}
+                height={500}
+                className="rounded-2xl md:ml-auto max-md:row-start-1 max-md:scale-85"
+              />
+              <div>
+                <h3
+                  className="text-4xl lg:text-5xl max-md:text-center
+                    font-medium mb-5"
+                >
+                  AI & ML in <br /> Healthcare
+                </h3>
+                <p className="max-md:hidden lg:text-lg">
+                  Exploring the application of artificial intelligence and
+                  machine learning in transforming healthcare delivery. It
+                  covers intelligent systems for diagnostics, clinical decision
+                  support, medical imaging, and predictive analytics,
+                  highlighting how data-driven models are enhancing accuracy,
+                  efficiency, and personalized patient care.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="grid max-md:grid-rows-[auto_auto] md:grid-cols-2
+                md:gap-7 md:text-right"
+            >
+              <div>
+                <h3
+                  className="text-4xl lg:text-5xl max-md:text-center
+                    font-medium mb-5"
+                >
+                  Data Science &amp; <br /> Health Analytics
+                </h3>
+                <p className="max-md:hidden lg:text-lg">
+                  Focusing on leveraging data-driven methodologies to extract
+                  meaningful insights from healthcare data. It explores
+                  statistical analysis, predictive modeling, and visualization
+                  techniques that support evidence-based decision-making,
+                  improve population health outcomes, and optimize healthcare
+                  systems.
+                </p>
+              </div>
+              <Image
+                src="/data-science-health-analytics.png"
+                alt="Internet of medical things poster"
+                width={500}
+                height={500}
+                className="rounded-2xl max-md:row-start-1 max-md:scale-85"
+              />
+            </div>
+
+            <div className="grid max-md:grid-rows-[auto_auto] md:grid-cols-2 md:gap-7">
+              <Image
+                src="/iomt-smart-healthcare-systems.png"
+                alt="AI in healthcare poster"
+                width={500}
+                height={500}
+                className="rounded-2xl md:ml-auto max-md:row-start-1 max-md:scale-85"
+              />
+              <div>
+                <h3
+                  className="text-4xl lg:text-5xl max-md:text-center
+                    font-medium mb-5"
+                >
+                  IoMT &amp; Smart Healthcare Systems
+                </h3>
+                <p className="max-md:hidden lg:text-lg">
+                  Exploring the design and deployment of intelligent, connected
+                  healthcare infrastructures powered by the Internet of Medical
+                  Things. It highlights how smart sensors, secure networks, and
+                  real-time data integration enable efficient clinical
+                  workflows, remote patient monitoring, and resilient,
+                  technology-driven healthcare systems.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="grid max-md:grid-rows-[auto_auto] md:grid-cols-2
+                md:gap-7 md:text-right"
+            >
+              <div>
+                <h3
+                  className="text-4xl lg:text-5xl max-md:text-center
+                    font-medium mb-5"
+                >
+                  Human-Computer Interaction (HCI) &amp; Assistive Technologies
+                </h3>
+                <p className="max-md:hidden lg:text-lg">
+                  Focusing on designing intuitive, accessible, and user-centered
+                  technologies that enhance human interaction with digital
+                  systems. It explores assistive solutions, adaptive interfaces,
+                  and inclusive design approaches that empower individuals with
+                  diverse abilities and improve quality of life through
+                  technology.
+                </p>
+              </div>
+              <Image
+                src="/hci-assistive-technologies.png"
+                alt="Internet of medical things poster"
+                width={500}
+                height={500}
+                className="rounded-2xl max-md:row-start-1 max-md:scale-85"
+              />
+            </div>
+
+            <div className="grid max-md:grid-rows-[auto_auto] md:grid-cols-2 md:gap-7">
+              <Image
+                src="/ethical-ai.png"
+                alt="AI in healthcare poster"
+                width={500}
+                height={500}
+                className="rounded-2xl md:ml-auto max-md:row-start-1 max-md:scale-85"
+              />
+              <div>
+                <h3
+                  className="text-4xl lg:text-5xl max-md:text-center
+                    font-medium mb-5"
+                >
+                  Ethical Al, Responsible Computing & Healthcare Informatics
+                </h3>
+                <p className="max-md:hidden lg:text-lg">
+                  Addressing the critical ethical, social, and governance
+                  challenges arising from the use of advanced computing in
+                  healthcare. It explores responsible AI design, data privacy,
+                  fairness, transparency, and regulatory considerations,
+                  emphasizing the development of trustworthy, human-centered
+                  technologies for sustainable and ethical healthcare
+                  innovation.
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Date and time info */}
