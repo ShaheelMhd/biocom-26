@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Instrument_Sans } from "next/font/google";
 import "./globals.css";
@@ -24,6 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${instrumentSans.variable} antialiased`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
